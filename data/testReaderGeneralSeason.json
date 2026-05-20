@@ -1,0 +1,102 @@
+{
+    "teams": [
+        {
+            "name": "Ravens",
+            "wins": 2,
+            "losses": 0,
+            "totalPointsScored": 20,
+            "totalPointsConceded": 10,
+            "matchesPlayed": 2
+        },
+        {
+            "name": "Chiefs",
+            "wins": 1,
+            "losses": 1,
+            "totalPointsScored": 15,
+            "totalPointsConceded": 15,
+            "matchesPlayed": 2
+        },
+        {
+            "name": "Bills",
+            "wins": 1,
+            "losses": 1,
+            "totalPointsScored": 15,
+            "totalPointsConceded": 15,
+            "matchesPlayed": 2
+        },
+        {
+            "name": "Browns",
+            "wins": 0,
+            "losses": 2,
+            "totalPointsScored": 10,
+            "totalPointsConceded": 20,
+            "matchesPlayed": 2
+        }
+    ],
+    "matchdays": [
+        {
+            "matches": [
+                {
+                    "homeTeam": "Ravens",
+                    "awayTeam": "Chiefs",
+                    "homeScore": 10,
+                    "awayScore": 5,
+                    "status": "Complete"
+                },
+                {
+                    "homeTeam": "Bills",
+                    "awayTeam": "Browns",
+                    "homeScore": 10,
+                    "awayScore": 5,
+                    "status": "Complete"
+                }
+            ],
+            "playingTeams": [
+                {
+                    "name": "Ravens"
+                },
+                {
+                    "name": "Chiefs"
+                },
+                {
+                    "name": "Bills"
+                },
+                {
+                    "name": "Browns"
+                }
+            ]
+        },
+        {
+            "matches": [
+                {
+                    "homeTeam": "Ravens",
+                    "awayTeam": "Bills",
+                    "homeScore": 10,
+                    "awayScore": 5,
+                    "status": "Complete"
+                },
+                {
+                    "homeTeam": "Chiefs",
+                    "awayTeam": "Browns",
+                    "homeScore": 10,
+                    "awayScore": 5,
+                    "status": "Complete"
+                }
+            ],
+            "playingTeams": [
+                {
+                    "name": "Ravens"
+                },
+                {
+                    "name": "Bills"
+                },
+                {
+                    "name": "Chiefs"
+                },
+                {
+                    "name": "Browns"
+                }
+            ]
+        }
+    ]
+}

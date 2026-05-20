@@ -1,0 +1,37 @@
+package model;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.Assert.assertEquals;
+
+import java.util.Calendar;
+import java.util.Date;
+
+// Referenced from the Alarm System Project
+// https://github.students.cs.ubc.ca/CPSC210/AlarmSystem
+public class EventTest {
+	private Event e;
+	private Date d;
+
+    //NOTE: these tests might fail if time at which line (2) below is executed
+	//is different from time that line (1) is executed.  Lines (1) and (2) must
+	//run in same millisecond for this test to make sense and pass.
+	
+	@BeforeEach
+	public void runBefore() {
+		e = new Event("Added Team: Texans");  
+		d = Calendar.getInstance().getTime();
+	}
+	
+	@Test
+	public void testEvent() {
+		assertEquals("Added Team: Texans", e.getDescription());
+		assertEquals(d, e.getDate());
+	}
+
+	@Test
+	public void testToString() {
+		assertEquals(d.toString() + "\n" + "Added Team: Texans", e.toString());
+	}
+}

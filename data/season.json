@@ -1,0 +1,86 @@
+{
+    "teams": [
+        {
+            "wins": 1,
+            "matchesPlayed": 2,
+            "totalPointsConceded": 6,
+            "name": "aaaaa",
+            "losses": 1,
+            "totalPointsScored": 5
+        },
+        {
+            "wins": 1,
+            "matchesPlayed": 2,
+            "totalPointsConceded": 5,
+            "name": "bbbbb",
+            "losses": 1,
+            "totalPointsScored": 4
+        },
+        {
+            "wins": 0,
+            "matchesPlayed": 2,
+            "totalPointsConceded": 5,
+            "name": "ddddd",
+            "losses": 2,
+            "totalPointsScored": 2
+        },
+        {
+            "wins": 2,
+            "matchesPlayed": 2,
+            "totalPointsConceded": 2,
+            "name": "ccccc",
+            "losses": 0,
+            "totalPointsScored": 7
+        }
+    ],
+    "matchdays": [
+        {
+            "playingTeams": [
+                {"name": "aaaaa"},
+                {"name": "bbbbb"},
+                {"name": "ccccc"},
+                {"name": "ddddd"}
+            ],
+            "matches": [
+                {
+                    "homeScore": 4,
+                    "awayTeam": "bbbbb",
+                    "awayScore": 1,
+                    "homeTeam": "aaaaa",
+                    "status": "Complete"
+                },
+                {
+                    "homeScore": 2,
+                    "awayTeam": "ddddd",
+                    "awayScore": 1,
+                    "homeTeam": "ccccc",
+                    "status": "Complete"
+                }
+            ]
+        },
+        {
+            "playingTeams": [
+                {"name": "ccccc"},
+                {"name": "aaaaa"},
+                {"name": "ddddd"},
+                {"name": "bbbbb"}
+            ],
+            "matches": [
+                {
+                    "homeScore": 5,
+                    "awayTeam": "aaaaa",
+                    "awayScore": 1,
+                    "homeTeam": "ccccc",
+                    "status": "Complete"
+                },
+                {
+                    "homeScore": 1,
+                    "awayTeam": "bbbbb",
+                    "awayScore": 3,
+                    "homeTeam": "ddddd",
+                    "status": "Complete"
+                }
+            ]
+        }
+    ]
+}
