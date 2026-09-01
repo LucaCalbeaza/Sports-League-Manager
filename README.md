@@ -32,12 +32,7 @@ mvn -version
    cd Sports-League-Manager
    ```
 
-2. **Build the project**
-   ```
-   mvn clean package
-   ```
-
-3. **Run the application**
+2. **Run the application**
 
     ```bash
    java -jar target/sports-league-maker.jar
