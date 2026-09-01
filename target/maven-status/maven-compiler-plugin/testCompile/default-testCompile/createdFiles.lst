@@ -1,0 +1,9 @@
+model\TeamTest.class
+persistence\JsonReaderTest.class
+model\EventLogTest.class
+model\MatchTest.class
+persistence\JsonWriterTest.class
+model\EventTest.class
+persistence\JsonTest.class
+model\SeasonTest.class
+model\MatchdayTest.class

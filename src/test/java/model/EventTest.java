@@ -1,12 +1,11 @@
 package model;
 
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
-
-import static org.junit.Assert.assertEquals;
-
 import java.util.Calendar;
 import java.util.Date;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 // Referenced from the Alarm System Project
 // https://github.students.cs.ubc.ca/CPSC210/AlarmSystem

@@ -12,11 +12,9 @@ import model.Season;
 import model.Team;
 import persistence.JsonReader;
 import persistence.JsonWriter;
-import ca.ubc.cs.ExcludeFromJacocoGeneratedReport;
 
 
 // A sports league manager application
-@ExcludeFromJacocoGeneratedReport
 public class SeasonApp {
     private static final String JSON_STORE = "./data/season.json";
     private Season season;
